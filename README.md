@@ -1,6 +1,7 @@
 # Hilbert-Curve-Code
 class TurtleFractal 
 
+#Obtained from Slack Overflow
 public static void HilbertCurve(int n, Turtle fred, double step) {
     if (n > 0) {
         if (n % 2 == 1) {
