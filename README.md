@@ -1,8 +1,17 @@
 # Hilbert-Curve-Code
 class TurtleFractal 
 
-#Obtained from Slack Overflow
-public static void HilbertCurve(int n, Turtle fred, double step) {
+#--------------Attributed Code Section-------------#
+#Code created with the help of Stack Overflow
+#https://stackoverflow.com/questions/43230399/draw-a-hilbert-curve-by-recursion
+#
+#Question by Juli:
+#https://stackoverflow.com/users/7820193/juli
+#
+#Answer by CD Lane:
+#https://stackoverflow.com/users/5771269/cdlane
+#
+#public static void HilbertCurve(int n, Turtle fred, double step) {
     if (n > 0) {
         if (n % 2 == 1) {
             fred.left(90);
@@ -32,7 +41,7 @@ public static void HilbertCurve(int n, Turtle fred, double step) {
     }
 }
 
-public static void main(String[] args) {
+#public static void main(String[] args) {
     Turtle fred = new Turtle(0, 0, 0);
     //fred can go forward or turn to any angle
     // 0,0-initial coordinates, 0-angle
@@ -47,3 +56,5 @@ public static void main(String[] args) {
     HilbertCurve(n, fred, step);
 
 }
+
+#------------End of Attributed Code Section-----------#
